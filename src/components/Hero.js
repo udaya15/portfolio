@@ -231,7 +231,7 @@ const Hero = () => {
             >
               {/* Profile photo placeholder — replace src with your actual photo */}
               <img
-                src="/profile.png"
+                src={process.env.PUBLIC_URL + "/profile.png"}
                 alt="Udayanga Vishvajith Perera"
                 className="w-full h-full object-cover"
                 onError={(e) => {
