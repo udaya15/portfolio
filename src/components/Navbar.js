@@ -12,12 +12,12 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { label: 'About', href: '#about' },
-    { label: 'Tech Stack', href: '#tech' },
-    { label: 'Projects', href: '#projects' },
-    { label: 'Creative', href: '#cinematic' },
-    { label: 'Contact', href: '#contact' },
-  ];
+  { label: 'About', href: '/#about' },
+  { label: 'Tech Stack', href: '/#tech' },
+  { label: 'Projects', href: '/#projects' },
+  { label: 'Creative', href: '/#cinematic' },
+  { label: 'Contact', href: '/#contact' },
+];
 
   return (
     <motion.nav
