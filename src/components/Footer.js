@@ -51,7 +51,7 @@ const Footer = () => {
 
           {/* Download CV — fixed */}
           <motion.a
-            href="/UdayangaCV.pdf"
+            href={process.env.PUBLIC_URL + "/UdayangaCV.pdf"}
             download="UdayangaCV.pdf"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
